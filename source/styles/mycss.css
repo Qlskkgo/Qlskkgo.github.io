@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
+body {
+  font-family: Michroma, serif;
+  background: linear-gradient(90deg, #12009a 0%, #040404 100%);
+}
+
+p {
+  color: aquamarine;
+}
+
+.nav-link {
+  color: rgb(118, 118, 118);
+}
+
+.navbar-nav .nav-link.active {
+  color: aquamarine;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-toggler {
+  background-color: rgb(64, 57, 200);
+}
+
+.sidebar {
+  color: aquamarine;
+  background: linear-gradient(270deg, #12009a 0%, #040404 100%);
+}
+
+.card {
+  text-align: center;
+  color: aquamarine;
+  background: linear-gradient(270deg, #12009a 0%, #040404 100%);
+}
+
+.card a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+  background: linear-gradient(270deg, #12009a 0%, #040404 100%);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anim {
+  animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
